@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <title>2-dars</title>
+</head>
+<body>
+   
+   <div class="container">
+
+      <h2 class="text-center pt-4 mb-1">Movies catalog</h2>
+
+      <div class="row">
+
+         <div class="col-4">
+
+            <input class="form-control mb-3" type="text" placeholder="ave" name="ave" required>
+            <input class="form-control mb-3" type="number" placeholder="5" name="5" required>
+            <select class="form-control mb-3" name="All" id="All">
+
+               <option value="All">All</option>
+               <option value="one">one</option>
+               <option value="two">two</option>
+               <option value="three">three</option>
+
+            </select>
+
+            <select class="form-control mb-3" name="All" id="All">
+
+               <option value="All">Rating (high to low)</option>
+               <option value="one">one</option>
+               <option value="two">two</option>
+               <option value="three">three</option>
+
+            </select>
+
+            <div class="d-grid gap-2 col-6 w-100 mb-5">
+
+               <button type="button" class="btn btn-primary">search</button>
+
+            </div>
+
+            <h3 class="mb-4">Bookmarked movies</h3>
+
+            <ul class="list-group list-unstyled">
+
+               <li class="list-group-item border border-secondary">
+
+                  <strong>Avengers:Infinity War</strong>
+                  <button type="button" class="btn btn-danger d-block my-2">Remove</button>
+
+               </li>
+
+               <li class="list-group-item border border-secondary">
+
+                  <strong>The Avengers</strong>
+                  <button type="button" class="btn btn-danger d-block my-2">Remove</button>
+
+               </li>
+
+               <li class="list-group-item border border-secondary">
+
+                  <strong>12 Years a Slave</strong>
+                  <button type="button" class="btn btn-danger d-block my-2">Remove</button>
+
+               </li>
+
+            </ul>
+
+         </div>
+
+         <div class="col-8">
+
+            <strong>Search results:39</strong>
+            <div class="alert alert-primary mt-2" role="alert">
+               Use the form on the left to search for a movie       
+            </div>
+
+            <div class="row">
+
+               <div class="col-6">
+
+                 <div class="border border-dark">
+
+                  <img  src="./images/img-2570.jpg" width="415" height="300" alt="Avengers">
+                  <h3 class="ms-3 mt-3">Avengers:Infinitity War</h3>
+   
+                  <div class="ms-3 mt-1">
+   
+                     <img src="./images/calendar-event-fill.svg" alt="calendar">
+                     <time class="ms-1">2018</time>   
+   
+                  </div>
+   
+                  <div class="mt-3 ms-3">
+   
+                     <img  src="./images/star_icon_30md2.svg" width="20" height="20" alt="star">
+                     <time class="ms-1">8.7</time>   
+   
+                  </div>
+   
+                 <div class="mt-4 ms-3 mb-3">
+   
+                  <button type="button" class="btn btn-outline-primary ">Watch traielr</button>
+                  <button type="button" class="btn btn-outline-info mx-2">More info</button>
+                  <button type="button" class="btn btn-outline-success">Bookmark</button>
+   
+                 </div>
+
+                 </div>
+   
+               </div>
+
+               <div class="col-6 ">
+
+                  <div class="border border-dark">
+ 
+                   <img src="./images/Thor.jpg" width="415" height="300" alt="thor">
+                   <h3 class="ms-3 mt-3">Avengers:Infinitity War</h3>
+    
+                   <div class="ms-3 mt-1">
+    
+                      <img src="./images/calendar-event-fill.svg" alt="calendar">
+                      <time class="ms-1">2012</time>   
+    
+                   </div>
+    
+                   <div class="mt-3 ms-3">
+    
+                      <img src="./images/star_icon_30md2.svg" width="20" height="20" alt="star">
+                      <time class="ms-1">8.1</time>   
+    
+                   </div>
+    
+                  <div class="mt-4 ms-3 mb-3">
+                   <button type="button" class="btn btn-outline-primary ">Watch traielr</button>
+                   <button type="button" class="btn btn-outline-info mx-2">More info</button>
+                   <button type="button" class="btn btn-outline-success">Bookmark</button>
+    
+                  </div>
+ 
+                  </div>
+    
+                </div>
+
+            </div>
+
+            <nav aria-label="..." class="mt-3">
+               <ul class="pagination pagination-sm d-flex justify-content-center">
+
+                 <li class="page-item active" aria-current="page">
+                   <span class="page-link">1</span>
+                 </li>
+                 <li class="page-item"><a class="page-link" href="#">2</a></li>
+                 <li class="page-item"><a class="page-link" href="#">3</a></li>
+                 <li class="page-item"><a class="page-link" href="#">4</a></li>
+
+               </ul>
+             </nav>
+            
+
+         </div>
+
+      </div>
+
+   </div>
+
+
+</body>
+</html>
